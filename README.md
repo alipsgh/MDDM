@@ -1,2 +1,9 @@
-# icde_2018
-This repository is prepared for the reviewers of my paper submitted to ICDE 2018.
+# ICDE 2018 - McDiarmid Drift Detection Method
+This repository is prepared for reviewers of my paper submitted to ICDE 2018.
+
+* The source codes of MDDMs and FHDDM are available in repository [codes_for_moa](https://github.com/alipsgh/codes_for_moa/tree/master/drift_detection).
+  * The source codes should be added into the [MOA](https://github.com/Waikato/moa) framework, under folder **'moa/classifiers/core/driftdetection/'**.
+  * You may need to install Eclipse (or a similar Java IDE), and then import MOA as a **Maven** project.
+  * For further informaiton, please click [here](https://www.cs.waikato.ac.nz/~abifet/MOA/Manual.pdf) for the manual of MOA.
+* The synthetic data streams are available in repository [data_streams](
+https://github.com/alipsgh/data_streams/tree/master/synthetic), (you need to unzip the files).
