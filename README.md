@@ -1,4 +1,4 @@
-# ICDE 2018 - McDiarmid Drift Detection Method
+# ICDE 2018 - McDiarmid Drift Detection Methods
 This repository is prepared for reviewers of my paper submitted to ICDE 2018.
 
 * The source codes of MDDMs and FHDDM are available in repository [codes_for_moa](https://github.com/alipsgh/codes_for_moa/tree/master/drift_detection).
