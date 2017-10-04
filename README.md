@@ -11,4 +11,20 @@ https://github.com/alipsgh/data_streams/tree/master/synthetic), (you need to unz
   ```
   -javaagent:[enter directory path]/sizeofag.jar
   ```
-  For Eclipse, you must pass it using tab ```Arguments``` in ```Run Configurations...``` under tab ```Run``` from the main menu.
+  For Eclipse, you must pass the path using tab ```Arguments``` in ```Run Configurations...``` under tab ```Run``` from the main menu.
+* I have already built a **moa.jar** file and shared it in this repository. You should run it in a terminal (or in a command prompt in Windows). You may use a command similar to the one below for an experiment:
+  ```
+  java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask alipsgh.EvaluatePrequential -l \(drift.alipsgh.DriftDetectionMethodClassifierSyntheticData -l trees.HoeffdingTree -d MDDM_G -m 20000 -n 4 -a 250\) -s \(ArffFileStream -f /home/ali/moa/data_streams/arff/sine1_w_50_n_0.1/sine1_w_50_n_0.1_101.arff\) -e BasicClassificationPerformanceEvaluator -i -1 -f 1000 -q 1000
+  ```
+  The results would be similar to:
+  ```
+  Delay, TP, FP, FN, Runtime, Memory, Classification Accuracy
+  39.25,4,0,0,49,1344,87.05
+  ```
+  
+Please contact me for any problem.
+  
+  <br/>
+  <br/>
+  
+<sub>Ali Pesaranghader © 2017</sub>
