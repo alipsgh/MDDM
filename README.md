@@ -11,4 +11,4 @@ https://github.com/alipsgh/data_streams/tree/master/synthetic), (you need to unz
   ```
   -javaagent:[enter directory path]/sizeofag.jar
   ```
-  In Eclipse, you must pass it using tab ```Arguments``` in ```Run Configurations...``` under tab ```Run``` from the main menu.
+  For Eclipse, you must pass it using tab ```Arguments``` in ```Run Configurations...``` under tab ```Run``` from the main menu.
