@@ -1,5 +1,5 @@
-# ICDE 2018 - McDiarmid Drift Detection Methods
-This repository is prepared for reviewers of my paper submitted to ICDE 2018.
+# McDiarmid Drift Detection Methods
+This repository is prepared for McDiarmid Drift Detection Methods.
 
 * The source codes of MDDMs and FHDDM are available in repository [codes_for_moa](https://github.com/alipsgh/codes_for_moa/tree/master/drift_detection).
   * The source codes should be added into the [MOA](https://github.com/Waikato/moa) framework, under folder **'moa/classifiers/core/driftdetection/'**.
